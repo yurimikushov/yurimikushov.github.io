@@ -1,25 +1,14 @@
-.title {
-    float: left;
-}
-
 .name {
+    margin: 5px 0;
     font-family: Arial;
     font-size: 30px;
-    line-height: 28px;
     color: #101214;
     font-weight: bold;
 }
 
 .position {
+    margin: 5px 0;
     font-family: Arial;
     font-size: 20px;
-    line-height: 28px;
     color: #101214;
-}
-
-.avatar {
-    float: right;
-    width: 72px;
-    height: 72px;
-    background-color: #000;
 }
