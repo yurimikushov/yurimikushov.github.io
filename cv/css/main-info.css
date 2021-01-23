@@ -6,7 +6,7 @@
 .experience__title,
 .education__title {
     font-size: .7rem;
-    line-height: 1.38rem;
+    line-height: 1.4rem;
     letter-spacing: .15rem;
     color: var(--color-gray-1);
     text-transform: uppercase;
@@ -39,6 +39,6 @@
 .experience__discription {
     margin: 10px 0;
     font-size: 1rem;
-    line-height: 1.38rem;
+    line-height: 1.4rem;
     color: var(--color-black);
 }
