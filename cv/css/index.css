@@ -1,5 +1,6 @@
-@import './title.css';
-@import './avatar.css';
+@import './header.css';
+@import './about-me.css';
+@import './main-info.css';
 
 * {
     padding: 0;
@@ -7,11 +8,12 @@
 }
 
 html {
+    font-family: Arial;
     background-color: rgb(229, 229, 229);
 }
 
 body {
-    margin: 0 auto;
+    margin: 5px auto;
     max-width: 700px;
     background-color: rgb(255, 255, 255);
 }
@@ -27,11 +29,12 @@ body {
 }
 
 .main-info {
-    width: 75%;
     float: left;
+    width: 70%;
+    margin-top: 40px;
 }
 
 .another-info {
-    width: 25%;
     float: right;
+    width: 30%;
 }
