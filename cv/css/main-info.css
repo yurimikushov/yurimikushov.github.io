@@ -5,28 +5,31 @@
 
 .experience__title,
 .education__title {
-    font-size: 10px;
+    font-size: 9px;
     line-height: 18px;
     letter-spacing: 2px;
     color: #73808d;
     text-transform: uppercase;
 }
 
-.experience__position {
+.experience__position,
+.education__degree {
     margin: 5px 0;
     font-size: 16px;
     letter-spacing: 1px;
     color: #000;
 }
 
-.experience__company {
+.experience__company,
+.education__institution {
     margin: 5px 0;
     font-size: 14px;
     font-weight: 100;
     color: #000;
 }
 
-.experience__duration {
+.experience__duration,
+.education__duration {
     margin: 5px 0;
     font-size: 10px;
     font-weight: 100;
