@@ -1,5 +1,5 @@
 .header {
-    height: var(--avatar-size);
+    height: var(--header-hight);
 }
 
 .title {
@@ -8,26 +8,26 @@
 
 .name {
     margin: 5px 0;
-    font-size: 30px;
+    font-size: 2.3rem;
     color: var(--color-black);
     font-weight: bold;
 }
 
 .position {
     margin: 5px 0;
-    font-size: 20px;
+    font-size: 1.84rem;
     color: var(--color-black);
 }
 
 .avatar {
     float: right;
     margin-right: 75px;
-    width: var(--avatar-size);
-    height:var(--avatar-size);
+    width: var(--header-hight);
+    height:var(--header-hight);
     clip-path: circle(50%);
 }
 
 .avatar__img {
-    width: var(--avatar-size);
-    height: var(--avatar-size);
+    width: var(--header-hight);
+    height: var(--header-hight);
 }

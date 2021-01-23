@@ -10,11 +10,13 @@
     --color-black: #000;
     --color-gray-0: #e5e5e5;
     --color-gray-1: #73808d;
-    --avatar-size: 72px;
+    --header-hight: 72px;
+    --font-size: 13px;
 }
 
 html {
     font-family: Arial;
+    font-size: var(--font-size);
     background-color: var(--color-gray-0);
 }
 
