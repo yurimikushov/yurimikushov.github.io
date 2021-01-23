@@ -1,6 +1,7 @@
 @import './header.css';
 @import './about-me.css';
 @import './main-info.css';
+@import './another-info.css';
 
 * {
     padding: 0;
@@ -26,6 +27,10 @@ body {
 
 .cv-container {
     margin: 50px;
+}
+
+.info {
+    margin-top: 40px;
 }
 
 .main-info {

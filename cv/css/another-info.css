@@ -1,0 +1,25 @@
+.contact {
+    font-size: 11px;
+    line-height: 18px;
+    color: #73808d;
+}
+
+.technologies,
+.languages {
+    margin: 20px 0;
+}
+
+.technologies__title,
+.languages__title {
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 18px;
+    color: #73808d;
+}
+
+.technologies__list,
+.languages__item {
+    font-size: 11px;
+    line-height: 18px;
+    color: #73808d;
+}
