@@ -1,6 +1,7 @@
 @import './reset.css';
 @import './header.css';
 @import './about-me.css';
+@import './info.css';
 @import './main-info.css';
 @import './another-info.css';
 
@@ -24,18 +25,4 @@ body {
 
 .cv {
     margin: 50px;
-}
-
-.info {
-    margin-top: 40px;
-}
-
-.main-info {
-    float: left;
-    width: 65%;
-}
-
-.another-info {
-    float: right;
-    width: 25%;
 }
