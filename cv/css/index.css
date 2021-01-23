@@ -1,12 +1,8 @@
+@import './reset.css';
 @import './header.css';
 @import './about-me.css';
 @import './main-info.css';
 @import './another-info.css';
-
-* {
-    padding: 0;
-    margin: 0;
-}
 
 html {
     font-family: Arial;
@@ -26,7 +22,7 @@ body {
     background-color: #000;
 }
 
-.cv-container {
+.cv {
     margin: 50px;
 }
 
