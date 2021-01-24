@@ -1,0 +1,22 @@
+{
+  "name": "cv",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yurimikushov/yurimikushov.github.io.git"
+  },
+  "keywords": [
+    "cv"
+  ],
+  "author": "Yuri Mikushov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yurimikushov/yurimikushov.github.io/issues"
+  },
+  "homepage": "https://github.com/yurimikushov/yurimikushov.github.io#readme"
+}
