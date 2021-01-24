@@ -22,7 +22,7 @@
 .avatar {
   width: var(--header-hight);
   height: var(--header-hight);
-  margin-right: 75px;
+  margin-right: 82px;
   clip-path: circle(50%);
   float: right;
 }
