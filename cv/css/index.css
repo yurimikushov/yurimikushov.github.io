@@ -22,7 +22,7 @@ html {
 
 body {
   width: 700px;
-  height: 900px;
+  min-height: 900px;
   margin: 10px auto;
   background-color: var(--color-white);
 }
