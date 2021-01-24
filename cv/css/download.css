@@ -1,0 +1,27 @@
+.download {
+  position: absolute;
+  top: 20px;
+  left: calc(100vw / 2 + var(--cv-container-width) / 2 + 20px);
+}
+
+.download__pdf {
+  display: flex;
+  align-items: center;
+  color: var(--color-gray-1);
+  fill: var(--color-gray-1);
+}
+
+.download__pdf:hover {
+  color: var(--color-black);
+  fill: var(--color-black);
+}
+
+.download__pdf > * {
+  padding: 0 2px;
+}
+
+.download__pdf-icon {
+  width: 1rem;
+  height: 1rem;
+  fill: inherit;
+}

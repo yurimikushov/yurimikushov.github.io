@@ -4,14 +4,17 @@
 @import './info.css';
 @import './main-info.css';
 @import './another-info.css';
+@import './download.css';
 
 :root {
   --color-white: #fff;
   --color-black: #000;
   --color-gray-0: #e5e5e5;
   --color-gray-1: #73808d;
-  --header-hight: 72px;
   --font-size: 13px;
+  --cv-container-width: 700px;
+  --cv-container-min-height: 900px;
+  --header-hight: 72px;
 }
 
 html {
@@ -20,9 +23,9 @@ html {
   font-size: var(--font-size);
 }
 
-body {
-  width: 700px;
-  min-height: 900px;
+.cv-wrapper {
+  width: var(--cv-container-width);
+  min-height: var(--cv-container-min-height);
   margin: 10px auto;
   background-color: var(--color-white);
 }
