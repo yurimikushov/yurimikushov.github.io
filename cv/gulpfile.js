@@ -48,30 +48,30 @@ const start = () => {
 
   watch(
     'index.html',
-    series((callback) =>
+    series(function hotReload(callback) {
       src('index.html').pipe(server.stream()).on('end', callback)
-    )
+    })
   )
 
   watch(
     'src/css/**/*.css',
-    series(buildCss, (callback) =>
+    series(buildCss, function hotReload(callback) {
       src('dist/css').pipe(server.stream()).on('end', callback)
-    )
+    })
   )
 
   watch(
     'src/js/**/*.js',
-    series(buildJs, (callback) =>
+    series(buildJs, function hotReload(callback) {
       src('dist/js').pipe(server.stream()).on('end', callback)
-    )
+    })
   )
 
   watch(
     'src/img/**/*.{ico,png,jpg,svg,webp}',
-    series(minifyImage, (callback) =>
+    series(minifyImage, function hotReload(callback) {
       src('dist/img').pipe(server.stream()).on('end', callback)
-    )
+    })
   )
 }
 
