@@ -2,18 +2,18 @@
   height: var(--header-hight);
 }
 
-.title {
+.header__title {
   float: left;
 }
 
-.name {
+.header__name {
   margin: 5px 0;
   color: var(--color-black);
   font-size: 2rem;
   font-weight: bold;
 }
 
-.position {
+.header__position {
   margin: 5px 0;
   color: var(--color-black);
   font-size: 1.7rem;
