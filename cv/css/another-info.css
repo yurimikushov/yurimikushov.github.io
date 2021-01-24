@@ -1,7 +1,7 @@
 .contact {
+  color: var(--color-gray-1);
   font-size: 0.85rem;
   line-height: 1.4rem;
-  color: var(--color-gray-1);
 }
 
 .technologies,
@@ -11,15 +11,15 @@
 
 .technologies__title,
 .languages__title {
+  color: var(--color-gray-1);
   font-size: 0.92rem;
   font-weight: bold;
   line-height: 1.4rem;
-  color: var(--color-gray-1);
 }
 
 .technologies__list,
 .languages__item {
+  color: var(--color-gray-1);
   font-size: 0.85rem;
   line-height: 1.4rem;
-  color: var(--color-gray-1);
 }

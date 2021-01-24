@@ -8,23 +8,23 @@
 
 .name {
   margin: 5px 0;
-  font-size: 2rem;
   color: var(--color-black);
+  font-size: 2rem;
   font-weight: bold;
 }
 
 .position {
   margin: 5px 0;
-  font-size: 1.7rem;
   color: var(--color-black);
+  font-size: 1.7rem;
 }
 
 .avatar {
-  float: right;
-  margin-right: 75px;
   width: var(--header-hight);
   height: var(--header-hight);
+  margin-right: 75px;
   clip-path: circle(50%);
+  float: right;
 }
 
 .avatar__img {

@@ -5,40 +5,40 @@
 
 .experience__title,
 .education__title {
-  font-size: 0.7rem;
-  line-height: 1.4rem;
-  letter-spacing: 0.15rem;
   color: var(--color-gray-1);
+  font-size: 0.7rem;
+  letter-spacing: 0.15rem;
+  line-height: 1.4rem;
   text-transform: uppercase;
 }
 
 .experience__position,
 .education__degree {
   margin: 5px 0;
+  color: var(--color-black);
   font-size: 1.15rem;
   letter-spacing: 0.07rem;
-  color: var(--color-black);
 }
 
 .experience__company,
 .education__institution {
   margin: 5px 0;
+  color: var(--color-black);
   font-size: 1rem;
   font-weight: 100;
-  color: var(--color-black);
 }
 
 .experience__duration,
 .education__duration {
   margin: 5px 0;
+  color: var(--color-gray-1);
   font-size: 0.77rem;
   font-weight: 100;
-  color: var(--color-gray-1);
 }
 
 .experience__discription {
   margin: 10px 0;
+  color: var(--color-black);
   font-size: 1rem;
   line-height: 1.4rem;
-  color: var(--color-black);
 }

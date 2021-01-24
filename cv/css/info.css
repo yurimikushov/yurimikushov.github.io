@@ -3,11 +3,11 @@
 }
 
 .main-info {
-  float: left;
   width: 65%;
+  float: left;
 }
 
 .another-info {
-  float: right;
   width: 25%;
+  float: right;
 }
