@@ -1,10 +1,8 @@
-.experience-container,
-.education-container {
+.main-info__item:not(:first-child) {
   margin: 20px 0;
 }
 
-.experience__title,
-.education__title {
+.main-info__item-title_lvl-1 {
   color: var(--color-gray-1);
   font-size: 0.7rem;
   letter-spacing: 0.15rem;
@@ -12,31 +10,28 @@
   text-transform: uppercase;
 }
 
-.experience__position,
-.education__degree {
+.main-info__item-title_lvl-2 {
   margin: 5px 0;
   color: var(--color-black);
   font-size: 1.15rem;
   letter-spacing: 0.07rem;
 }
 
-.experience__company,
-.education__institution {
+.main-info__item-title_lvl-3 {
   margin: 5px 0;
   color: var(--color-black);
   font-size: 1rem;
   font-weight: 100;
 }
 
-.experience__duration,
-.education__duration {
+.main-info__item-title_lvl-4 {
   margin: 5px 0;
   color: var(--color-gray-1);
   font-size: 0.77rem;
   font-weight: 100;
 }
 
-.experience__discription {
+.main-info__discription {
   margin: 10px 0;
   color: var(--color-black);
   font-size: 1rem;

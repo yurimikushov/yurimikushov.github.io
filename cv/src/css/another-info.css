@@ -1,24 +1,15 @@
-.contact {
-  color: var(--color-gray-1);
-  font-size: 0.85rem;
-  line-height: 1.4rem;
-}
-
-.technologies,
-.languages {
+.another-info__item:not(:first-child) {
   margin: 20px 0;
 }
 
-.technologies__title,
-.languages__title {
+.another-info__title {
   color: var(--color-gray-1);
   font-size: 0.92rem;
   font-weight: bold;
   line-height: 1.4rem;
 }
 
-.technologies__list,
-.languages__item {
+.another-info__desciption {
   color: var(--color-gray-1);
   font-size: 0.85rem;
   line-height: 1.4rem;
