@@ -1,13 +1,13 @@
 .info {
-    margin-top: 40px;
+  margin-top: 40px;
 }
 
 .main-info {
-    float: left;
-    width: 65%;
+  float: left;
+  width: 65%;
 }
 
 .another-info {
-    float: right;
-    width: 25%;
+  float: right;
+  width: 25%;
 }

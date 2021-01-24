@@ -6,33 +6,33 @@
 @import './another-info.css';
 
 :root {
-    --color-white: #fff;
-    --color-black: #000;
-    --color-gray-0: #e5e5e5;
-    --color-gray-1: #73808d;
-    --header-hight: 72px;
-    --font-size: 13px;
+  --color-white: #fff;
+  --color-black: #000;
+  --color-gray-0: #e5e5e5;
+  --color-gray-1: #73808d;
+  --header-hight: 72px;
+  --font-size: 13px;
 }
 
 html {
-    font-family: Arial;
-    font-size: var(--font-size);
-    background-color: var(--color-gray-0);
+  font-family: Arial;
+  font-size: var(--font-size);
+  background-color: var(--color-gray-0);
 }
 
 body {
-    margin: 10px auto;
-    width: 700px;
-    height: 900px;
-    background-color: var(--color-white);
+  margin: 10px auto;
+  width: 700px;
+  height: 900px;
+  background-color: var(--color-white);
 }
 
 .top-line {
-    width: 100%;
-    height: 4px;
-    background-color: var(--color-black);
+  width: 100%;
+  height: 4px;
+  background-color: var(--color-black);
 }
 
 .cv {
-    margin: 50px;
+  margin: 50px;
 }

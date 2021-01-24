@@ -1,25 +1,25 @@
 .contact {
-    font-size: .85rem;
-    line-height: 1.4rem;
-    color: var(--color-gray-1);
+  font-size: 0.85rem;
+  line-height: 1.4rem;
+  color: var(--color-gray-1);
 }
 
 .technologies,
 .languages {
-    margin: 20px 0;
+  margin: 20px 0;
 }
 
 .technologies__title,
 .languages__title {
-    font-size: .92rem;
-    font-weight: bold;
-    line-height: 1.4rem;
-    color: var(--color-gray-1);
+  font-size: 0.92rem;
+  font-weight: bold;
+  line-height: 1.4rem;
+  color: var(--color-gray-1);
 }
 
 .technologies__list,
 .languages__item {
-    font-size: .85rem;
-    line-height: 1.4rem;
-    color: var(--color-gray-1);
+  font-size: 0.85rem;
+  line-height: 1.4rem;
+  color: var(--color-gray-1);
 }

@@ -1,44 +1,44 @@
 .experience-container,
 .education-container {
-    margin: 20px 0;
+  margin: 20px 0;
 }
 
 .experience__title,
 .education__title {
-    font-size: .7rem;
-    line-height: 1.4rem;
-    letter-spacing: .15rem;
-    color: var(--color-gray-1);
-    text-transform: uppercase;
+  font-size: 0.7rem;
+  line-height: 1.4rem;
+  letter-spacing: 0.15rem;
+  color: var(--color-gray-1);
+  text-transform: uppercase;
 }
 
 .experience__position,
 .education__degree {
-    margin: 5px 0;
-    font-size: 1.15rem;
-    letter-spacing: .07rem;
-    color: var(--color-black);
+  margin: 5px 0;
+  font-size: 1.15rem;
+  letter-spacing: 0.07rem;
+  color: var(--color-black);
 }
 
 .experience__company,
 .education__institution {
-    margin: 5px 0;
-    font-size: 1rem;
-    font-weight: 100;
-    color: var(--color-black);
+  margin: 5px 0;
+  font-size: 1rem;
+  font-weight: 100;
+  color: var(--color-black);
 }
 
 .experience__duration,
 .education__duration {
-    margin: 5px 0;
-    font-size: .77rem;
-    font-weight: 100;
-    color: var(--color-gray-1);
+  margin: 5px 0;
+  font-size: 0.77rem;
+  font-weight: 100;
+  color: var(--color-gray-1);
 }
 
 .experience__discription {
-    margin: 10px 0;
-    font-size: 1rem;
-    line-height: 1.4rem;
-    color: var(--color-black);
+  margin: 10px 0;
+  font-size: 1rem;
+  line-height: 1.4rem;
+  color: var(--color-black);
 }
