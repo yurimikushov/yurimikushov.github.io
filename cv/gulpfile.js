@@ -47,6 +47,13 @@ const start = () => {
   })
 
   watch(
+    'index.html',
+    series((callback) =>
+      src('index.html').pipe(server.stream()).on('end', callback)
+    )
+  )
+
+  watch(
     'src/css/**/*.css',
     series(buildCss, (callback) =>
       src('dist/css').pipe(server.stream()).on('end', callback)
