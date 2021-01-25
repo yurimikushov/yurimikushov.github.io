@@ -23,11 +23,6 @@
   width: var(--header-hight);
   height: var(--header-hight);
   margin-right: 82px;
-  clip-path: circle(50%);
+  border-radius: 50%;
   float: right;
-}
-
-.avatar__img {
-  width: var(--header-hight);
-  height: var(--header-hight);
 }
