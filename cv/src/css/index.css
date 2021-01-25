@@ -22,6 +22,14 @@ html {
   font-size: var(--font-size);
 }
 
+a {
+  color: var(--color-gray-1);
+}
+
+a:hover {
+  color: var(--color-black);
+}
+
 .cv-wrapper {
   width: var(--cv-container-width);
   min-height: var(--cv-container-min-height);
