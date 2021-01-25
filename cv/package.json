@@ -27,7 +27,7 @@
     "stylelint-config-standard": "^20.0.0"
   },
   "author": "Yuri Mikushov",
-  "license": "ISC",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yurimikushov/yurimikushov.github.io.git"
