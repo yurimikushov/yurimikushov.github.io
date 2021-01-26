@@ -1,6 +1,6 @@
 # Curriculum vitae
 
-It's my CV. You can see it [yurimikushov.github.io/cv](https://yurimikushov.github.io/cv).
+It's my CV. You can see it [here](https://yurimikushov.github.io/cv).
 
 ![Preview](docs/img/preview.png)
 
