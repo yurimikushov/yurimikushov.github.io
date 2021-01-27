@@ -1,28 +1,33 @@
 .header {
+  display: flex;
   height: var(--header-hight);
+  justify-content: space-between;
 }
 
 .header__title {
-  float: left;
+  width: 65%;
+}
+
+.header__title > * {
+  margin: 5px 0;
+  color: var(--color-black);
 }
 
 .header__name {
-  margin: 5px 0;
-  color: var(--color-black);
   font-size: 2rem;
   font-weight: bold;
 }
 
 .header__position {
-  margin: 5px 0;
-  color: var(--color-black);
   font-size: 1.7rem;
+}
+
+.avatar-wrapper {
+  width: 25%;
 }
 
 .avatar {
   width: var(--header-hight);
   height: var(--header-hight);
-  margin-right: 82px;
   border-radius: 50%;
-  float: right;
 }
