@@ -11,7 +11,7 @@
   --color-gray-0: #e5e5e5;
   --color-gray-1: #73808d;
   --font-size: 13px;
-  --cv-container-width: 700px;
+  --cv-container-width: 800px;
   --cv-container-min-height: 900px;
   --header-hight: 72px;
 }
@@ -44,5 +44,5 @@ a:hover {
 }
 
 .cv {
-  margin: 40px;
+  margin: 50px;
 }
