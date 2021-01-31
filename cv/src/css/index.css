@@ -30,7 +30,7 @@ a:hover {
   color: var(--color-black);
 }
 
-.cv-wrapper {
+.cv-container {
   width: var(--cv-container-width);
   min-height: var(--cv-container-min-height);
   margin: 10px auto;
